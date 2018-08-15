@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AlgorithmsAndData
+namespace AlgorithmsAndData//Chain together Star Wars characters by ID I generate 
 {
    public class Nodes
    {
