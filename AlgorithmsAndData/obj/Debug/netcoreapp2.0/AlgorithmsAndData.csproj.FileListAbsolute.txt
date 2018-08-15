@@ -1,0 +1,11 @@
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\bin\Debug\netcoreapp2.0\AlgorithmsAndData.deps.json
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\bin\Debug\netcoreapp2.0\AlgorithmsAndData.runtimeconfig.json
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\bin\Debug\netcoreapp2.0\AlgorithmsAndData.runtimeconfig.dev.json
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\bin\Debug\netcoreapp2.0\AlgorithmsAndData.dll
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\bin\Debug\netcoreapp2.0\AlgorithmsAndData.pdb
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\obj\Debug\netcoreapp2.0\AlgorithmsAndData.csprojResolveAssemblyReference.cache
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\obj\Debug\netcoreapp2.0\AlgorithmsAndData.csproj.CoreCompileInputs.cache
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\obj\Debug\netcoreapp2.0\AlgorithmsAndData.AssemblyInfoInputs.cache
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\obj\Debug\netcoreapp2.0\AlgorithmsAndData.AssemblyInfo.cs
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\obj\Debug\netcoreapp2.0\AlgorithmsAndData.dll
+C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\AlgorithmsAndData\obj\Debug\netcoreapp2.0\AlgorithmsAndData.pdb
