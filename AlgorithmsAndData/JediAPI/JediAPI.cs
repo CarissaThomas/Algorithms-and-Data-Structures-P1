@@ -32,7 +32,14 @@ namespace AlgorithmsAndData.JediAPI
             {
                jedi = await response.Content.ReadAsAsync<AllJedis>();
 
+               int counter = 0;
+
+               var jediIDs = jedi.Results//Give each jedi object an ID to be used with algorithms 
+                  .Select(x => x.ID = counter++)
+                  .ToList();
+
                string jsonstring = JsonConvert.SerializeObject(jedi.Results);
+
                jediDeserialized = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Jedi>>(jsonstring);
 
             }

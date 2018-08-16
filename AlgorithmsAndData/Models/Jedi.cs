@@ -15,6 +15,8 @@ namespace AlgorithmsAndData.Models
       public string Birth_Year { get; set; }
       public string Gender { get; set; }
       public string Homeworld { get; set; }
+      public int ID { get; set; }
 
    }
+
 }
