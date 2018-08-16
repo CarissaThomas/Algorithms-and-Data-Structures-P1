@@ -32,7 +32,7 @@ namespace AlgorithmsAndData.JediAPI
             {
                jedi = await response.Content.ReadAsAsync<AllJedis>();
 
-               int counter = 0;
+               int counter = 1;
 
                var jediIDs = jedi.Results//Give each jedi object an ID to be used with algorithms 
                   .Select(x => x.ID = counter++)

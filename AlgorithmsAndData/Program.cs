@@ -33,7 +33,11 @@ namespace Algorithms_and_Data
 
                jediListComplete.ForEach(item => Console.Write(JsonConvert.SerializeObject(item) + Environment.NewLine));
 
-               Console.WriteLine("Here all of the jedis");
+
+               Console.WriteLine("Noderize Jedis:");
+
+               NodeChain.Noderize(jediListComplete);//Call the node example with jedis from API
+
                Console.ReadLine();
 
             }
