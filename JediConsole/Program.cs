@@ -38,7 +38,7 @@ namespace Algorithms_and_Data
             Console.ReadLine();
 
             Console.WriteLine("Please select which module you would like displayed with these characters:");
-            Console.WriteLine("Type one of the following: nodes, linked list, stack, queue, binary tree");
+            Console.WriteLine("Type one of the following: nodes, linked list, stack, queue, binary tree, hash table");
 
             switch (Console.ReadLine())
             {
@@ -56,6 +56,9 @@ namespace Algorithms_and_Data
                   break;
                case "binary tree":
                   Instruction.SetBinaryTree(jediListComplete);
+                  break;
+               case "hash table":
+                  Instruction.SetHashTable(jediListComplete);
                   break;
                default:
                   Console.WriteLine("Please select from the list above");

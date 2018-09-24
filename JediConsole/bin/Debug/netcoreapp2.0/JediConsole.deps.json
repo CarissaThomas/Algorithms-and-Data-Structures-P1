@@ -9,7 +9,6 @@
       "JediConsole/1.0.0": {
         "dependencies": {
           "Microsoft.AspNet.WebApi": "5.2.6",
-          "Models": "1.0.0",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
@@ -57,11 +56,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
-        }
-      },
-      "Models/1.0.0": {
-        "runtime": {
-          "Models.dll": {}
         }
       }
     }
@@ -113,11 +107,6 @@
       "sha512": "sha512-5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
-    },
-    "Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

@@ -1,4 +1,5 @@
 ﻿using BinaryTree;
+using HashTable;
 using LinkedListModule.LinkedList;
 using LinkedListModule.Models;
 using Newtonsoft.Json;
@@ -113,7 +114,7 @@ namespace JediConsole
 
          var BinaryClass = new BinaryTree<int>();
 
-         var JediIDList = jediListComplete.Select(x => x.ID).ToArray();
+         var JediIDList = jediListComplete.Select(x => x.ID);
 
          switch (Console.ReadLine())
          {
@@ -125,6 +126,49 @@ namespace JediConsole
                break;
             default:
                break;
+         }
+      }
+
+
+      public static void SetHashTable(List<Jedi> jediListComplete)
+      {
+         Console.WriteLine("Press enter");
+         Console.WriteLine("Type which hash table function you would like to see: add, remove");
+
+         var HashTable = new HashTable<int, Jedi>();
+
+         //Populate the hash table
+         foreach (var item in jediListComplete)
+         {
+            HashTable.Add(item.ID, item);
+         }
+
+         switch (Console.ReadLine())
+         {
+            case "add":
+               Jedi newJedi = Jedi.NewJedi();
+               HashTable.Add(newJedi.ID, newJedi);
+               PrintHashTable(HashTable);
+               Console.ReadLine();
+               break;
+            case "remove":
+               Console.WriteLine("Enter in Jedi ID to remove");
+               string Response = Console.ReadLine();
+               HashTable.Remove(Int32.Parse(Response));
+               PrintHashTable(HashTable);
+               Console.ReadLine();
+               break;
+            default:
+               break;
+         }
+      }
+
+
+      static void PrintHashTable(HashTable<int, Jedi> hashTable)
+      {
+         foreach (int key in hashTable.Keys)
+         {
+            Console.WriteLine(String.Format("{0}: {1}", key, hashTable[key].Name));
          }
       }
 

@@ -3,12 +3,9 @@ C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and 
 C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\bin\Debug\netcoreapp2.0\JediConsole.runtimeconfig.dev.json
 C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\bin\Debug\netcoreapp2.0\JediConsole.dll
 C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\bin\Debug\netcoreapp2.0\JediConsole.pdb
-C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\bin\Debug\netcoreapp2.0\Models.dll
-C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\bin\Debug\netcoreapp2.0\Models.pdb
 C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\obj\Debug\netcoreapp2.0\JediConsole.csprojResolveAssemblyReference.cache
 C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\obj\Debug\netcoreapp2.0\JediConsole.csproj.CoreCompileInputs.cache
 C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\obj\Debug\netcoreapp2.0\JediConsole.AssemblyInfoInputs.cache
 C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\obj\Debug\netcoreapp2.0\JediConsole.AssemblyInfo.cs
-C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\obj\Debug\netcoreapp2.0\JediConsole.csproj.CopyComplete
 C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\obj\Debug\netcoreapp2.0\JediConsole.dll
 C:\Users\carissa.thomas\Desktop\Homebaked\Algorithms and Data P1\Algorithms and Data\JediConsole\obj\Debug\netcoreapp2.0\JediConsole.pdb
