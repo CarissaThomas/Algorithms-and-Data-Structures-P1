@@ -62,20 +62,21 @@ namespace JediConsole
 
          switch (Console.ReadLine())
          {
-            case "Push":
+            case "push":
                Jedi newJedi = Jedi.NewJedi();
-               Console.WriteLine("New jedi you are adding " + newJedi);
+               Console.WriteLine("New jedi you are adding " + newJedi.Name);
                JediLinkedList.Push(newJedi);
+               PrintList(JediLinkedList);
                Console.ReadLine();
                break;
 
-            case "Pop":
+            case "pop":
                JediLinkedList.Pop();
                PrintList(JediLinkedList);
                Console.ReadLine();
                break;
 
-            case "Peek":
+            case "peek":
                JediLinkedList.Peek();
                PrintList(JediLinkedList);
                Console.ReadLine();
