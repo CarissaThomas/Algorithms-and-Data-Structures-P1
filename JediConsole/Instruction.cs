@@ -92,7 +92,7 @@ namespace JediConsole
          Console.WriteLine("Type which Queue function you would like to see: enqueue, dequeue");
 
          var QueueClass = new Queue.List.Queue<int>();//New Queue class
-         var JediIDList = jediListComplete.Select(x => x.ID).ToArray();
+         int[] JediIDList = jediListComplete.Select(x => x.ID).ToArray();
          var QueueItems = new System.Collections.Generic.LinkedList<int>(JediIDList);
          QueueClass._items = QueueItems;
 
@@ -118,18 +118,24 @@ namespace JediConsole
       public static void SetBinaryTree(List<Jedi> jediListComplete)
       {
          Console.WriteLine("Press enter");
-         Console.WriteLine("Type which binary tree function you would like to see: add");
+         Console.WriteLine("Type which binary tree function you would like to see: add or remove");
 
          var BinaryClass = new BinaryTree<int>();
+         int[] JediIDList = jediListComplete.Select(x => x.ID).ToArray();
 
-         var JediIDList = jediListComplete.Select(x => x.ID);
 
          switch (Console.ReadLine())
          {
             case "add":
                Jedi newJedi = Jedi.NewJedi();
                BinaryClass.Add(newJedi.ID);
-               PrintList(JediIDList);
+               PrintBinary(JediIDList);
+               Console.ReadLine();
+               break;
+            case "remove":
+               Console.WriteLine("Enter in a Jedi ID to remove");
+               BinaryClass.Remove(Int32.Parse(Console.ReadLine()));
+               PrintBinary(JediIDList);
                Console.ReadLine();
                break;
             default:
@@ -172,6 +178,16 @@ namespace JediConsole
       }
 
       #region Print Operations
+
+
+      static void PrintBinary(int[] jediIDList)
+      {
+         foreach (var item in jediIDList)
+         {
+            Console.WriteLine(item.ToString());
+         }
+      }
+
 
       static void PrintQueue(System.Collections.Generic.LinkedList<int> jediIDList)
       {
