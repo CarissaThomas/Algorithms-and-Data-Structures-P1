@@ -89,18 +89,25 @@ namespace JediConsole
       public static void SetQueue(List<Jedi> jediListComplete)
       {
          Console.WriteLine("Press enter");
-         Console.WriteLine("Type which Queue function you would like to see: enqueue");
+         Console.WriteLine("Type which Queue function you would like to see: enqueue, dequeue");
 
          var QueueClass = new Queue.List.Queue<int>();//New Queue class
+         var JediIDList = jediListComplete.Select(x => x.ID).ToArray();
+         var QueueItems = new System.Collections.Generic.LinkedList<int>(JediIDList);
+         QueueClass._items = QueueItems;
 
-         var JediIDList = jediListComplete.Select(x => x.ID);
 
          switch (Console.ReadLine())
          {
             case "enqueue":
                Jedi newJedi = Jedi.NewJedi();
                QueueClass.Enqueue(newJedi.ID);
-               PrintList(JediIDList);
+               PrintQueue(QueueClass._items);
+               Console.ReadLine();
+               break;
+            case "dequeue":
+               QueueClass.Dequeue();
+               PrintQueue(QueueClass._items);
                Console.ReadLine();
                break;
             default:
@@ -164,6 +171,15 @@ namespace JediConsole
          }
       }
 
+      #region Print Operations
+
+      static void PrintQueue(System.Collections.Generic.LinkedList<int> jediIDList)
+      {
+         foreach (var item in jediIDList)
+         {
+            Console.WriteLine(item.ToString());
+         }
+      }
 
       static void PrintHashTable(HashTable<int, Jedi> hashTable)
       {
@@ -193,7 +209,8 @@ namespace JediConsole
             Console.WriteLine();
          }
       }
-
-
    }
+   #endregion
+
+
 }
